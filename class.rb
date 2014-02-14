@@ -22,6 +22,16 @@
 	end
 
 end
+
+dog = Pet.new
+Kernel.puts(dog)
+dog.go_outside(1)
+dog.walkies(1)
+dog.bark("yip")
+
+
+
+
 5.send(:*, 5)
 25
 
@@ -57,11 +67,6 @@ false
 nil
 
 
-dog = Pet.new
-Kernel.puts(dog)
-dog.go_outside(1)
-dog.walkies(1)
-dog.bark("yip")
 
 
 
